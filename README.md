@@ -1,2 +1,2 @@
 # kopi-kabupaten
-Belajar HTML dan CSS
+Belajar HTML, CSS, dan sedikit JS
