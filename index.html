@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopi Kabupaten</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- MyStyle -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Kopi<span>Kabupaten</span></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#main-menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shipping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Landing Page Start -->
+    <section class="landing" id="home">
+      <main class="content">
+        <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+        <p>
+          Nikmati kopi dengan biji kopi pilihan, menyegarkan dan membahagiakan
+          hati. Tunggu apa lagi?
+        </p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Landing Page End -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="IMG/img-about.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content-about-us">
+          <h3>Why choose us?</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
+            magni nulla voluptate molestias voluptas voluptatibus. Sapiente et
+            quam minima eveniet?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem,
+            pariatur.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section Start -->
+    <section id="main-menu" class="main-menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nulla
+        vero voluptas natus officiis fugit.
+      </p>
+      <div class="outer-row">
+        <div class="row">
+          <div class="menu-card">
+            <img
+              src="IMG/menu/menu-1.jpg"
+              alt="menu-1"
+              class="menu-card-image"
+            />
+          </div>
+          <h3 class="menu-card-title">~Espresso~</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+
+        <div class="row">
+          <div class="menu-card">
+            <img
+              src="IMG/menu/menu-2.jpg"
+              alt="menu-1"
+              class="menu-card-image"
+            />
+          </div>
+          <h3 class="menu-card-title">~Latte~</h3>
+          <p class="menu-card-price">IDR 30K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quos
+        aliquid aperiam repellat maiores temporibus magnam sunt quod ab animi.
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126506.2742466462!2d111.83775323200756!3d-7.755731424410579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78518f630c814b%3A0x3f8b2013f4a76d57!2sGrogol%20Sub%20District%20Office!5e0!3m2!1sen!2sid!4v1681798859094!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" name="nama" id="nama" placeholder="Your Name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+            />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input
+              type="number"
+              name="phone-number"
+              id="phone-number"
+              placeholder="Your Phone Number"
+            />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+    <!-- Footer Start-->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About-Us</a>
+        <a href="#main-menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By <a href="">Arief Prasetyo Marwan</a>. |&copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer End-->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- JavaScript -->
+    <script src="JS/javascript.js"></script>
+  </body>
+</html>
